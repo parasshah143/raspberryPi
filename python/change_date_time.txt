@@ -1,0 +1,16 @@
+http://stackoverflow.com/questions/25374570/how-to-update-date-and-time-of-raspberry-pi-with-out-internet
+
+Remember that Raspberry Pi does not have real time clock.So even you are connected to internet have to set the time every time you power on or restart. This is how it works
+
+sudo raspi-config
+Internationalization options
+Change Time Zone
+Select geographical area
+Select city or region.
+Reboot your pi.
+Next thing you can set time using this command
+
+sudo date -s "Mon Aug  12 20:14:11 UTC 2014"
+More about data and time
+
+man date

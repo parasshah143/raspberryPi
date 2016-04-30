@@ -1,0 +1,17 @@
+
+1) Thingbox Image Download Link for RaspberryPi:
+http://thethingbox.io/
+
+2) Configure Ip address
+
+3) NodeRed Ip: 
+http://192.168.4.234/#
+
+
+NodeRed UI Node Name:
+node-red-contrib-ui
+
+NodeRed UI Ip:
+http://192.168.4.234/api/ui/#/0
+
+4) Go Go Go 

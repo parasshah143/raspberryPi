@@ -1,0 +1,6 @@
+gcc -Wall -o blink blink.c -lwiringPi
+sudo ./blink
+
+or
+
+gcc -o hello main.c

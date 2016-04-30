@@ -1,0 +1,6 @@
+
+
+step1: 
+
+http://ubidots.com/docs/devices/raspberrypi.html
+

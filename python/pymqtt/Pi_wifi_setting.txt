@@ -1,0 +1,10 @@
+http://raspberrypi.stackexchange.com/questions/13558/how-to-get-wi-fi-to-connect-on-boot
+
+
+/etc/wpa_supplicant/wpa_supplicant.conf
+
+
+sudo ifup wlan0
+
+
+

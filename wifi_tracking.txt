@@ -1,0 +1,14 @@
+
+apt-get -y install libssl-dev
+wget http://download.aircrack-ng.org/aircrack-ng-1.2-beta1.tar.gz
+tar -zxvf aircrack-ng-1.2-beta1.tar.gz
+cd aircrack-ng-1.2-beta1
+make
+make install
+airodump-ng-oui-update
+apt-get -y install iw
+airmon-ng start wlan0
+airodump-ng mon0
+
+
+sudo airodump-ng -w randomstuff mon0  // CSV file generation
